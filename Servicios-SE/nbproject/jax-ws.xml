@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
   <services>
+    <service name="Aspirante">
+      <implementation-class>aspirante.Aspirante</implementation-class>
+    </service>
+    <service name="Coordinacion">
+      <implementation-class>coordinacion.Coordinacion</implementation-class>
+    </service>
+    <service name="Notificaciones">
+      <implementation-class>notificacion.Notificaciones</implementation-class>
+    </service>
+    <service name="ValidarInformacion">
+      <implementation-class>validarInfo.ValidarInformacion</implementation-class>
+    </service>
+    <service name="Emprendedor">
+      <implementation-class>emprendedor.Emprendedor</implementation-class>
+    </service>
   </services>
   <clients/>
   <jsr109>false</jsr109>
